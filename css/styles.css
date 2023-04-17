@@ -2,7 +2,7 @@
 
 /* Fonts */
 /* Importar aquí la font */
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
 
 
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
@@ -10,6 +10,10 @@
 */
 
 /* Reset */
+body {
+    background-color: #fbfbfb;
+    font-family: 'Lato', sans-serif;
+}
 * {
     box-sizing: border-box;
     margin: 0;
