@@ -13,7 +13,10 @@
 body {
     background-color: #fbfbfb;
     font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.5
 }
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -21,12 +24,44 @@ body {
     /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
 }
+ header {
+    position: fixed;
+    width: 100%;
+    background-color: #fbfbfb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding-left: 35px;
+    box-shadow: 0 0 10px 0 gray;
+    
+}
 
 /* Para quitar los puntos a los items de listas */
 ul {
     list-style: none;
+    padding-right: 35px;
+    
+    
 }
 
+#image {
+    border-radius:50%;
+    width: 400px;
+    padding-top: 2rem;
+}   
+
+
+
+h1 {
+    font-size: 36px;
+    padding: 1.5rem;
+}
+
+h3 {
+    font-size: 28px;
+
+}
 /* Para que los enlaces hereden el color de texto y no tengan subrayado */
 a {
     text-decoration: none;
@@ -39,6 +74,30 @@ a {
 main {
     max-width: 1200px;
     margin: auto;
+}
+
+section{
+    height: 100vh;
+    text-align: center;
+}
+
+.background {
+    background-color: rgba(175, 89, 158, 0.3);
+    color: #0f0f0f;
+}
+
+p {
+    padding: 20px 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+}
+
+footer {
+    height: 90px;
 }
 
 /* Recomendaciones! 

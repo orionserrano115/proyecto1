@@ -12,23 +12,20 @@
 <!-- La estructura básica y la vinculación con CSS estan listas. A codear! 💪  -->
 <!-- En este archivo escriban su HTML -->
 <body>
-    <header >
-        <figure><img src="logo-personal.png" alt="logo" width="50"></figure>
+    <header id="home">
+        <figure><img src="logo-personal.png" alt="logo" width="60" height="89"></figure>
         <nav>
-         <div id="main-principal">
              <ul>
                  <li><a href="#">Sobre mi</a></li>
                  <li><a href="#contact">Contacto</a></li>
              </ul>
-         </div>
         </nav>
     </header>
+    <br>
     <main>
-        <section id="image">
-            <figure id="home"><img src="https://lh3.googleusercontent.com/a/AGNmyxa36-iMEMxq6zDVllg8yfJmCISrjHa60x_llEbMBg=s288" alt="foto Orión Serrano"></figure>
-        </section>
         <section id="about">
-            <h1>Hola soy Orión</h1>
+            <figure ><img id="image" src="https://lh3.googleusercontent.com/a/AGNmyxa36-iMEMxq6zDVllg8yfJmCISrjHa60x_llEbMBg=s288" alt="foto Orión Serrano"></figure>
+            <h1>Hola! soy Orión</h1>
             <article>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sequi eius non fuga. Quasi, est cumque assumenda autem qui ut libero illo iusto. Quod repellendus ducimus labore rem sed exercitationem.
@@ -38,8 +35,7 @@
                     Consectetur hic in ratione magnam sint architecto, dicta laudantium quas, aliquam tenetur voluptate, illum expedita laborum! Sint quae incidunt veritatis dignissimos rerum debitis nulla quasi nam vitae, voluptatibus omnis aliquid?
                     Amet maxime enim reprehenderit dolorem fuga porro aliquam tenetur! Similique vel voluptate neque facilis aliquam id libero animi quod enim earum temporibus a ducimus, distinctio sed in assumenda ratione aspernatur?
                 </p>
-            </article>
-            <br>
+            </article>  
             <article>
                 <a href="CV.pdf" target="_blank">Descarga mi CV</a>
             </article>
@@ -50,15 +46,19 @@
         <br>
         <br>
         <section id="contact">
-            <article>
-                <h3>Hablemos</h3>
-                <p>
+            <article class="background">
+                <h3>Hablemos!</h3>
+                <p >
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolorem sunt, nulla esse nam non, cum aspernatur similique doloribus mollitia temporibus incidunt, praesentium molestiae cupiditate eum dolore. Ea, delectus molestias?
                     Saepe dolor ab magnam soluta deleniti. Accusantium inventore blanditiis, porro quis perferendis maiores, nulla a sunt ullam labore quia, beatae quas et? Architecto earum eligendi praesentium animi, natus repudiandae expedita.
                     Deleniti velit asperiores mollitia eius nesciunt nihil nostrum molestias ad praesentium inventore ex, quo iste ab corporis iure odio porro quos minima expedita facere molestiae ipsam natus? Odio, ad vitae.
                 </p>
-                <figure>
-                    <a href="" target="_blank"><img src="img/mail.png" alt="e-mail"> <img src="img/github.png" alt="github"> <img src="img/linkedin.png" alt="linkedin"></a>
+            </article>
+            <article>
+                <figure class="icons">
+                    <a href="mailto:orionserrano115@gmail.com?Subject=Un%20gusto%20saludarle" target="_blank"><img src="img/mail.png" alt="e-mail"></a>
+                    <a href="https://github.com/orionserrano115" target="_blank"> <img src="img/github.png" alt="github"></a>
+                    <a href="https://www.linkedin.com/in/ori%C3%B3n-serrano-linarez-9a2b76230/" target="_blank"> <img src="img/linkedin.png" alt="linkedin"></a>
                 </figure>
             </article>
 
