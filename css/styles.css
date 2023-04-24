@@ -25,20 +25,22 @@ body {
     scroll-behavior: smooth;
 }
 
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
 main {
     max-width: 1200px;
     margin: auto;
-    min-width: 300px;
+    min-width: 100px;
 }
 
-section {
+section, article {
     text-align: center;
 }
 
 article {
-    text-align: center;
     min-height: 100vh;
-    /* text-align: center; */
+
 }
 
 header {
@@ -59,8 +61,10 @@ ul {
     list-style: none;
 }
 
-.nav {
-    
+#nav {
+    display: inline;
+    padding-right: 2rem;
+
 }
 
 #image {
@@ -85,25 +89,23 @@ a {
 p {
     padding: 20px;
     margin: 20px;
+    color: #0f0f0f;
 }
-/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
-*  el margin: auto; para tenerlo centrado fácilmente ;)
-*/
 
 
 .download {
     
-    width: 50px;
+    min-width: 50px;
     font-weight: 700;
     border-radius: 10px;
-    margin: 150px 130px;
-    padding: 15px 30px;
+    margin: 15px;
+    padding: 15px;
     font-size: 20px;
     color:#fbfbfb;
     background-color: #af599e;
 }
 
-div {
+.background {
     background-color: rgba(175, 89, 158, 0.3);
     border-radius: 10px;
 }
