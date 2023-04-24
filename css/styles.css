@@ -24,7 +24,24 @@ body {
     /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
 }
- header {
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    min-width: 300px;
+}
+
+section {
+    text-align: center;
+}
+
+article {
+    text-align: center;
+    min-height: 100vh;
+    /* text-align: center; */
+}
+
+header {
     position: fixed;
     width: 100%;
     background-color: #fbfbfb;
@@ -33,40 +50,31 @@ body {
     align-items: center;
     height: 90px;
     padding: 35px;
-    box-shadow: 0 0 10px 0 gray;
+    box-shadow: 0 0 30px 0 gray;
     
 }
 
 /* Para quitar los puntos a los items de listas */
 ul {
     list-style: none;
-    padding-right: 35px;
 }
 
-li {
-    display: inline;
-    padding: 0.8rem;
-
-
+.nav {
+    
 }
 
 #image {
     border-radius:50%;
     width: 400px;
-    margin-top:7rem;
-    
+    margin-top:6rem;
 }
 
-
-
-h1 {
+.title {
     font-size: 36px;
-    padding: 1.5rem;
 }
 
-h3 {
+.subtitle {
     font-size: 28px;
-
 }
 /* Para que los enlaces hereden el color de texto y no tengan subrayado */
 a {
@@ -74,37 +82,50 @@ a {
     color: inherit;
 }
 
+p {
+    padding: 20px;
+    margin: 20px;
+}
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
 *  el margin: auto; para tenerlo centrado fácilmente ;)
 */
-main {
-    max-width: 1200px;
-    margin: auto;
-    /* min-width: 300px; */
-}
 
-section{
-    text-align: center;
-}
 
 .download {
+    
+    width: 50px;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 150px 130px;
+    padding: 15px 30px;
+    font-size: 20px;
+    color:#fbfbfb;
     background-color: #af599e;
 }
 
-p {
-    padding: 20px;
+div {
+    background-color: rgba(175, 89, 158, 0.3);
+    border-radius: 10px;
 }
 
 .icons {
     display: flex;
-    justify-content: space-around;
-    font-size: 15px;
+    justify-content: space-evenly;
+    color: rgb(12, 12, 75);
+}
 
+.icons img:hover{
+    transition: 350ms;
+    transform: scale(1.2)
 }
 
 footer {
     height: 90px;
+    color: #fbfbfb;
     background-color:#af599e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Recomendaciones! 
