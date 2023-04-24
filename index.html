@@ -12,41 +12,32 @@
 <!-- La estructura básica y la vinculación con CSS estan listas. A codear! 💪  -->
 <!-- En este archivo escriban su HTML -->
 <body>
-    <header id="home">
-        <figure><img src="logo-personal.png" alt="logo" width="60" height="89"></figure>
+    <header>
+        <figure class="logo"><img src="logo-personal.png" alt="logo" width="60" height="89"></figure>
         <nav>
              <ul>
-                 <li><a href="#">Sobre mi</a></li>
+                 <li><a href="#about">Sobre mi</a></li>
                  <li><a href="#contact">Contacto</a></li>
              </ul>
         </nav>
     </header>
-    <br>
     <main>
-        <section id="about">
+        <section id="about" style="height: 100%; width: 100%;">
             <figure ><img id="image" src="https://lh3.googleusercontent.com/a/AGNmyxa36-iMEMxq6zDVllg8yfJmCISrjHa60x_llEbMBg=s288" alt="foto Orión Serrano"></figure>
-            <h1>Hola! soy Orión</h1>
             <article>
+                <h1>Hola! soy Orión</h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sequi eius non fuga. Quasi, est cumque assumenda autem qui ut libero illo iusto. Quod repellendus ducimus labore rem sed exercitationem.
-                    Eius consectetur dolorem rerum est enim recusandae placeat ducimus? Provident, rem. Accusamus qui quo soluta, dolorum non labore ut. Quas nulla blanditiis est esse non impedit vitae assumenda dicta culpa.
-                    Atque delectus, quisquam nulla iste repellendus iusto itaque quo vitae nisi fuga mollitia. Quo nisi nam unde corrupti! Praesentium eligendi vitae eaque blanditiis fugiat doloremque incidunt quas ea dolorem libero?
-                    Consequuntur esse debitis fugiat, fuga autem eveniet architecto vero ex eum sint nihil pariatur odit. Iusto voluptate blanditiis ad, distinctio eveniet eum? Ipsam hic sint illum iste corrupti voluptas minus.
-                    Consectetur hic in ratione magnam sint architecto, dicta laudantium quas, aliquam tenetur voluptate, illum expedita laborum! Sint quae incidunt veritatis dignissimos rerum debitis nulla quasi nam vitae, voluptatibus omnis aliquid?
-                    Amet maxime enim reprehenderit dolorem fuga porro aliquam tenetur! Similique vel voluptate neque facilis aliquam id libero animi quod enim earum temporibus a ducimus, distinctio sed in assumenda ratione aspernatur?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea ullam ex libero asperiores cum nostrum, iure provident, cumque inventore similique voluptatibus aliquam dolore veniam cupiditate, accusantium assumenda consectetur nesciunt animi!
+                    Quaerat optio eos ducimus perferendis, sed sint commodi amet doloribus! Sequi inventore consequuntur reiciendis unde voluptatibus, tempora quaerat totam, voluptas dolores recusandae aut maxime, nostrum eaque eum delectus. Dolorem, fugiat.
+                    Accusamus enim expedita, adipisci sit dolore impedit exercitationem omnis nihil placeat voluptatibus beatae magnam reiciendis, fuga, necessitatibus blanditiis odio. Accusamus magni odit unde, delectus eius sequi rem repudiandae quaerat et?
+                    Dolorem illum maiores cum perferendis, molestiae qui facere pariatur veniam blanditiis ipsa error labore quisquam cupiditate doloremque! Sunt natus cumque autem fuga eveniet at, alias harum dolorem repudiandae adipisci maxime?
+                    <br>
+                    <a class="download" href="CV.pdf" target="_blank">Descarga mi CV</a>
                 </p>
-            </article>  
-            <article>
-                <a href="CV.pdf" target="_blank">Descarga mi CV</a>
             </article>
         </section>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <section id="contact">
-            <article class="background">
+        <section id="contact" style="height: 100%; width: 100%;"  >
+            <article>
                 <h3>Hablemos!</h3>
                 <p >
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolorem sunt, nulla esse nam non, cum aspernatur similique doloribus mollitia temporibus incidunt, praesentium molestiae cupiditate eum dolore. Ea, delectus molestias?
@@ -55,17 +46,17 @@
                 </p>
             </article>
             <article>
-                <figure class="icons">
-                    <a href="mailto:orionserrano115@gmail.com?Subject=Un%20gusto%20saludarle" target="_blank"><img src="img/mail.png" alt="e-mail"></a>
-                    <a href="https://github.com/orionserrano115" target="_blank"> <img src="img/github.png" alt="github"></a>
-                    <a href="https://www.linkedin.com/in/ori%C3%B3n-serrano-linarez-9a2b76230/" target="_blank"> <img src="img/linkedin.png" alt="linkedin"></a>
+                <figure >
+                    <a class="icons" href="mailto:orionserrano115@gmail.com?Subject=Un%20gusto%20saludarle" target="_blank"><img src="img/mail.png" alt="e-mail"></a>
+                    <a class="icons" href="https://github.com/orionserrano115" target="_blank"> <img src="img/github.png" alt="github"></a>
+                    <a class="icons" href="https://www.linkedin.com/in/ori%C3%B3n-serrano-linarez-9a2b76230/" target="_blank"> <img src="img/linkedin.png" alt="linkedin"></a>
                 </figure>
             </article>
 
         </section>
     </main>
     <hr>
-    <footer>Presentacion personal <a href="#home"></footer>
+    <footer>Presentacion personal </footer>
 </body>
 </html>
 
